@@ -1,0 +1,42 @@
+body{
+    animation:animattion 10s ease infinite;
+    background:linear-gradient(-45deg, palevioletred, purple, rgb(0, 217, 255), orchid, rgb(50, 205, 197))no-repeat; 
+    background-size: 500% 500%;
+
+    margin: 60px ;
+}
+
+.conteudo{
+    border-radius: 40px;
+    border-color: rgb(255, 0, 170);
+    background: rgb(255, 0, 170);
+    padding:30px;
+    padding-left: 40px;
+    max-width: 750px;
+    margin:30px auto;
+    column-rule-style:solid;
+    column-count:2;
+    column-span: all; 
+}
+img{
+    padding-left: 50px;
+    border-radius: 50%;
+}
+.quebrandothehead{ 
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(24, 23, 23);
+}
+
+@keyframes animattion{
+    0%  {
+         background-position: 0 50%;
+     }
+     
+    50% {
+         background-position: 100% 50%;
+     }
+    100%{
+         background-position: 0 50%;
+    }	   
+ }
